@@ -25,7 +25,7 @@ import java.util.Set;
 
 public class CameraController implements ICameraController {
 
-    private Set<CameraActionObserver> cameraActionObservers = new HashSet<>();
+    private final Set<CameraActionObserver> cameraActionObservers = new HashSet<>();
 
     private CameraContext cameraContext;
 
